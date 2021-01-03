@@ -1,0 +1,17 @@
+@import "_veriables";
+@import "_mixins";
+
+.excel-toolbar {
+  position: absolute;
+  height: @header-height;
+  left: 0;
+  right: 0;
+  top: @header-height;
+  border-top: 1px solid @border-color;
+  border-bottom: 1px solid @border-color;
+  padding: 0.5rem 0.9rem;
+  display: flex;
+  &__btn{
+    .btn(@green)
+  }
+}
