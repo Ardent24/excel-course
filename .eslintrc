@@ -15,7 +15,8 @@
     "eol-last": "off",
     "no-debugger":"off",
     "no-trailing-spaces" : "off",
-    "indent" : "off"
+    "indent" : "off",
+    "linebreak-style": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
