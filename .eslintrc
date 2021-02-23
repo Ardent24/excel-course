@@ -11,7 +11,11 @@
     "max-len": "off",
     "no-unused-vars": "off",
     "new-cap": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "eol-last": "off",
+    "no-debugger":"off",
+    "no-trailing-spaces" : "off",
+    "indent" : "off"
   },
   "extends": ["eslint:recommended", "google"]
 }

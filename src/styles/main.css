@@ -12,9 +12,10 @@
   right: 0;
   left: 0;
   height: 2.8rem;
-  padding: 0.5rem 0.4rem 0;
+  padding: 0 0.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .excel-header__title {
   margin: 0;
@@ -33,13 +34,16 @@
 .excel-header__title:focus {
   border: 1px solid #436CB2;
 }
+.excel-header__wrap {
+  display: flex;
+}
 .excel-header__btn {
-  height: 2rem;
+  justify-content: center;
+  align-items: center;
   min-width: 2rem;
   padding: 0.4rem;
-  text-align: center;
   position: relative;
-  display: inline-block;
+  display: flex;
   color: rgba(0, 0, 0, 0.7);
   transition: color, background-color, 0.5s;
 }
@@ -106,8 +110,7 @@
   outline: none;
 }
 .excel__table .cell.selected {
-  border: none;
-  outline: 1px solid #3c74ff;
+  border: 1px solid #3c74ff;
   z-index: 2;
 }
 .excel-toolbar {
@@ -122,12 +125,12 @@
   display: flex;
 }
 .excel-toolbar__btn {
-  height: 2rem;
+  justify-content: center;
+  align-items: center;
   min-width: 2rem;
   padding: 0.4rem;
-  text-align: center;
   position: relative;
-  display: inline-block;
+  display: flex;
   color: rgba(0, 0, 0, 0.7);
   transition: color, background-color, 0.5s;
 }
@@ -146,8 +149,8 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 6rem;
-  height: 2rem;
+  top: 5.6rem;
+  height: 2.4rem;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #c0c0c0;
@@ -155,9 +158,12 @@
 .excel-formula__info {
   font-size: 1.2rem;
   font-style: italic;
-  text-align: center;
   border-right: 1px solid #c0c0c0;
   min-width: 3.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .excel-formula__input {
   padding: 0.3rem;
@@ -166,6 +172,8 @@
   outline: none;
   font-size: 1rem;
   color: black;
+  display: flex;
+  align-items: center;
 }
 .db__header {
   position: fixed;
