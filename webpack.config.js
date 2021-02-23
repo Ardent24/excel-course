@@ -49,7 +49,7 @@ module.exports = {
   resolve: {
     extensions: ['.html', '.css', '.less', '.js', '.json', '.png', '.jpg'],
     alias: {
-      '@js': path.resolve(__dirname, 'src/js'),
+      '@core': path.resolve(__dirname, 'src/core'),
       '@': path.resolve(__dirname, 'src'),
     },
   },
